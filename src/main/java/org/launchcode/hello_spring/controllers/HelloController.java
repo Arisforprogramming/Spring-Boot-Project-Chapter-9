@@ -48,9 +48,9 @@ public class HelloController {
 
     //create form method
     //hello/form
-    @GetMapping("form")
+    @GetMapping("form1")
     public String helloForm() {
-        return "form";
+        return "form1";
     }
 //how to fix duplicating behavior put duplicate one up top
 
