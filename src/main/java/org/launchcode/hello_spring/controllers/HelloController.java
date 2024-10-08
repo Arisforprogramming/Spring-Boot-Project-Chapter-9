@@ -43,7 +43,7 @@ public class HelloController {
                 "<input type = 'submit' value = 'Greet Me!' >" +
                 "</form>" +
                 "</body>" +
-                "</html>";
+                "</html> terminal";
     }
 
 }
