@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="htttp://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Coffee</title>
+</head>
+<body>
+<ol>
+
+    <li th:each=" item = ${coffeeOptions}" th:text="${item}"></li>
+    <li th:if="${condition}"></li>
+
+</ol>
+</body>
+</html>
+
+<!--condition represent a boolean variable provided by the controller Alternatively, condition can be true or false
+then Thymeleaf does not generate the element -->
